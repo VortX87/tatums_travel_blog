@@ -5,18 +5,35 @@ body {
 
 .subheading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 3px solid black;
 }
 
 /*Picked matching colors for continuity*/
 header {
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     color: rgb(219, 210, 198);
+    border-radius: .75em;
+    padding: 15px;
+    box-shadow: 15px;
+    text-shadow: 20px;
 }
 
 article {
     background-image: linear-gradient(white, gray);
+    border-radius: .75em;
+    padding: 15px;
+    box-shadow: 15px;
 }
 
 a {
     color: blue;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: blue;
+    border-radius: .75em;
+    margin-bottom: 10px;
+    box-shadow: 15px;
 }
